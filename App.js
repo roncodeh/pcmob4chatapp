@@ -20,8 +20,39 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
     justifyContent: 'center',
+    padding: 24,
   },
+  title: {
+    fontSize: 36,
+    fontWeight: "bold",
+    marginBottom: 24,
+  },
+  fieldtTitle: {
+    fontSize: 18,
+    marginBottom: 12,
+  },
+  input: {
+    borderColor: "#999",
+    borderWidth: 1,
+    marginBottom: 24,
+    padding: 4,
+    height: 36,
+    fontSize: 18,
+    backgroundColor: "white",
+  },
+  loginButton: {
+    backgroundColor: "blue",
+    width: 120,
+    alignItems: "center",
+    padding: 18,
+    marginTop: 12,
+    marginBottom: 36,
+  },
+  buttonText: {
+    color: "white",
+    fontWeight: "bold",
+    fontSize: 18,
+  },
+
 });
